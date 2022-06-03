@@ -17,7 +17,7 @@ module.exports = function (){
 		    })
 		    .end(function (err, res) {
 		        expect(res.status).to.equals(200);
-				// console.log(res.body.id)
+				console.log(res.body.id)
 				global.idProject=res.body.id
 		        done();
 		    });
