@@ -37,7 +37,7 @@ module.exports = function (){
 		    });
 		});
 		//Negatif
-		it("Failed : Null name", function (done) {
+		it("Failed : Null", function (done) {
 			api.post("/rest/v1/projects")
 	      	.set("Authorization", "Bearer ea19ce9f20f84bcf0fe813977ff903b58b8bf73c")
 	      	.send({
