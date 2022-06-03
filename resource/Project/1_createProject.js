@@ -13,7 +13,7 @@ module.exports = function (){
 			api.post("/rest/v1/projects")
 	      	.set("Authorization", "Bearer ea19ce9f20f84bcf0fe813977ff903b58b8bf73c")
 	      	.send({
-		    	name: "Test Mocha QA"
+		    	name: "Test Mocha"
 		    })
 		    .end(function (err, res) {
 		        expect(res.status).to.equals(200);
